@@ -17,7 +17,7 @@ let getData = async () => {
     }
 
 function myFunction() {
-    var input, filter, ul, li, a, i, txtValue;
+    let input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase().trim(); // Trim whitespace from both ends of the input
     ul = document.getElementById("myUL");
